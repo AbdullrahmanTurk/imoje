@@ -37,8 +37,3 @@ function setup() {
     ellipse(140, 220, 5, 5);
 
   }
-  
-  function keyPressed() {
-    if (key === 's' || key === 'S') {
-      saveCanvas('myEmoji', 'png'); // Save canvas as PNG image
-    }
