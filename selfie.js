@@ -38,3 +38,7 @@ function setup() {
 
   }
   
+  function keyPressed() {
+    if (key === 's' || key === 'S') {
+      saveCanvas('myEmoji', 'png'); // Save canvas as PNG image
+    }
